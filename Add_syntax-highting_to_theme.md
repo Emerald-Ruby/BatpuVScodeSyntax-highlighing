@@ -40,7 +40,7 @@ The Batasm language file is a little messy, so the following is all the formatti
 `'Single quote strings'` : `string.quoted.Batasm` or `"string.quoted"`
 Numbers : `constant.numeric`
 
-To add your own colour to any of these just follow this easy step in your
+To add your own colour to any of these just follow this easy step in your json file
 
 ```
 {
