@@ -1,0 +1,80 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Batasm",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name" : "keyword.misc.Batasm",
+					"match": "\\b(nop|NOP|hlt|HLT)"
+				},
+				{
+					"name" : "keyword.brh.Batasm",
+					"match": "\\b(brh|BRH|jmp|JMP|cal|CAL|ret|RET)"
+				},
+				{
+					"name" : "keyword.data.Batasm",
+					"match": "\\b(ldi|LDI|lod|LOD|str|STR|mov|MOV)"
+				},
+				{
+					"name": "keyword.alu.Batasm",
+					"match": "\\b(add|ADD|sub|SUB|and|AND|nor|NOR|xor|XOR|rsh|RSH|lsh|LSG|cmp|CMP|neg|NEG|adi|ADI|inc|INC|dec|DEC)"
+				},
+				{
+					"name" : "keyword.registersdd.Batasm",
+					"match": "(r|R)1([0-5])"
+				},
+				{
+					"name" : "keyword.registersd.Batasm",
+					"match": "(r|R)\\d"
+				},
+				{
+					"name" : "keyword.comparison.Batasm",
+					"match": "\\b(eq|EQ|ne|NE|lt|LT|ge|GE)"
+				},
+				{
+					"name" : "keyword.Func.Batasm",
+					"match" : "\\.\\w+"
+				},
+		{
+			"name" : "keyword.comment.Batasm",
+			"match": "(;(.+)?|//(.+)?)|/(.+)?"
+		}
+			
+		]
+		},
+		"strings": {
+			"name": "string.quoted.Batasm",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.Batasm",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers":
+		{
+			"name": "constant.numeric",
+			"patterns": [
+				{
+					"name": "constant.numeric",
+					"match": "\\d+"
+				}
+			]
+		}
+	},
+	"scopeName": "source.as"
+}

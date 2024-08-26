@@ -1,0 +1,25 @@
+{
+  "name": "batasm",
+  "displayName": "Batasm",
+  "description": "Batasm Syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "Batasm",
+      "aliases": ["Batasm", "Batasm"],
+      "extensions": ["as"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "Batasm",
+      "scopeName": "source.as",
+      "path": "./syntaxes/Batasm.tmLanguage.json"
+    }]
+  }
+}

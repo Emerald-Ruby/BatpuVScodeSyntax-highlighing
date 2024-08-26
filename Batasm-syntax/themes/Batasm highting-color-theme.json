@@ -1,0 +1,116 @@
+{
+	"name": "Batasm highting",
+	"colors": {
+		"editor.background" : "#414141",
+		"editor.foreground": "#000000cb",
+		"activityBarBadge.background": "#1f5c85",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "Numbers",
+			"scope" : [
+				
+			]
+			
+		},
+		{
+			"name": "All other",
+			"scope" : [],
+			"settings": {
+				"foreground": "#000000fe",
+			}
+		},
+		{
+			"name": "Functions",
+			"scope" : [
+				"constant.numeric",
+				"keyword.Func.Batasm"
+			],
+			"settings": {
+				"foreground": "#ffffff",
+			}
+		},
+		{
+			"name": "Comparision instructions",
+			"scope": [
+				"keyword.comparison.Batasm"
+			],
+			"settings": {
+				"foreground": "#ff6600",
+			}
+		},
+		{
+			"name" : "MISC instructions",
+			"scope" : [
+				"keyword.misc.Batasm"
+			],
+			"settings": {
+				"foreground": "#ff0000",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Branch instructions",
+			"scope": [
+				"keyword.brh.Batasm"
+			],
+			"settings": {
+				"foreground": "#f200ff",
+			}
+		},
+		{
+			"name": "Data Instructions",
+			"scope": [
+				"keyword.data.Batasm"
+			],
+			"settings": {
+				"foreground": "#f871ff",
+			}
+		},
+		{
+			"name": "ALU instructions",
+			"scope": [
+				"keyword.alu.Batasm"
+			],
+			"settings": {
+				"foreground": "#5bff92",
+			}
+		},
+		{
+			"name": "Registers",
+			"scope": [
+				"keyword.registersd.Batasm",
+				"keyword.registersdd.Batasm"
+			],
+			"settings": {
+				"foreground": "#00f2ff",
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"comment.line",
+				"comment.block",
+				"keyword.comment.Batasm",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#01c70e"
+			}
+		},
+		{
+			"name" : "strings",
+			"scope" : [
+				"string",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#ffa600",
+				"fontStyle": "bold"
+			}
+		}
+	]
+}

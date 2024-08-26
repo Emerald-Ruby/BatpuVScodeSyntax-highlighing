@@ -1,0 +1,21 @@
+{
+  "name": "BatasmTheme",
+  "displayName": "AS",
+  "description": "Snytax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Batasm highting",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Batasm highting-color-theme.json"
+      }
+    ]
+  }
+}
