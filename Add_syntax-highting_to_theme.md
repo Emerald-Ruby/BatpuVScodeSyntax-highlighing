@@ -70,5 +70,5 @@ Once you have made change the colours to how you like, after saving you can clos
 
 If you don't like the colours you picked, or like the defualt ones more, inside the `tokenColors` scope, you can find `Variable` and `Class name` that all have the defualt code colours!! To find the colours you like from other languages use `ctrl+shift+p` and in the top bar, search `developer: inspect editor tokens and scopes`, then highlight the colours you want!!
 
-Watch this video for more help and a visual demonstrations!
+Watch this video for more help and a visual demonstrations! Skip to around 6:30
 https://youtu.be/Su-cNLe0dgw?si=UbOy1dxsqHYIaRhh
